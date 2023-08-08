@@ -1,4 +1,6 @@
 import { Sequelize } from "sequelize";
+import * as dotenv from "dotenv";
+dotenv.config()
 
 class Database {
     public sequelize: Sequelize | undefined;
